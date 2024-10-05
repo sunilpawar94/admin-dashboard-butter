@@ -1,0 +1,89 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+.bottomsecthree {
+    margin-left: 100px;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+
+.bottomsectionone {
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(233, 229, 229);
+}
+.bottomsectiontwo {
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(233, 229, 229);
+}
+.bottomsectionlast {
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(233, 229, 229);
+}
+
+.bottomsecthree h5 {
+    color: rgb(105, 102, 98);
+}
+
+.bottomsectionone button {
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    padding-left: 100px;
+}
+.bottomsectiontwo button {
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    padding-left: 100px;
+}
+.bottomsectionlast button {
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    padding-left: 100px;
+}
+
+@media screen and (max-width: 767px) {
+    .bottomsecthree {
+        width: 100%;
+        margin-left: 40px;
+    }
+    .bottomsectionone {
+        height: 45vh;
+        margin-bottom: 20px;  
+    }
+    .bottomsectiontwo {
+        height: 45vh;
+        margin-bottom: 20px;
+
+    }
+    .bottomsectionlast {
+        height: 45vh;
+        margin-bottom: 20px;
+
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .bottomsecthree {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+    }
+    .bottomsectionone  {
+    }
+}

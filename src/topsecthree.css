@@ -1,0 +1,125 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.topsecthree {
+    
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    gap: 1rem;
+    margin-left: 60px;
+
+    width: 100%;
+    margin-left: 20px;
+    padding: 10px;
+}
+.sectionone {
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(192, 231, 205);
+}
+.sectiontwo {
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(244, 213, 184);
+}
+.sectionlast {
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(224, 172, 228);
+}
+
+.topsecthree h5 {
+    color: rgb(105, 102, 98);
+}
+
+.sectionone button {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+.sectiontwo button {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+.sectionlast button {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+}
+
+@media screen and (max-width: 767px) {
+    .topsecthree {
+      margin-left: 30px;
+      padding: 10px;
+      width: 100%;
+      text-align: center;
+      align-items: center;
+      
+    }
+    .sectionone {
+        height: 280px;
+    }
+    .sectiontwo {
+        height: 280px;
+    }
+  .sectionlast {
+    height: 280px;
+    }
+
+    .sectionone h5 {
+        padding-top: 20px;
+        font-size: 15px;
+    }
+    .sectionone h3 {
+        padding-top: 20px;
+        font-size: 15px;
+    }
+
+    .sectiontwo  h5 {
+        padding-top: 20px;
+        font-size: 15px;
+    }
+    .sectiontwo  h3 {
+        padding-top: 20px;
+        font-size: 15px;
+    }
+    .sectionlast  h5 {
+        padding-top: 20px;
+        font-size: 15px;
+    }
+    .sectionlast  h3 {
+        padding-top: 20px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .topsecthree {
+        display: flex;
+        flex-direction: column;
+    }
+    .sectionone {
+        width: 100%;
+        padding: 10px;
+        margin-left: 10px;
+    
+    }
+    .sectiontwo {
+        width: 100%;
+        padding: 10px;
+        margin-left: 10px;
+    }
+    .sectionlast {
+        width: 100%;
+        padding: 10px;
+        margin-left: 10px;
+    }
+}

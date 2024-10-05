@@ -1,0 +1,77 @@
+.body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: rgb(204, 238, 247);
+}
+
+.homeright {
+    background-color: rgb(204, 238, 247);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-items: end;
+    justify-content: end;
+    gap: 1rem;
+    padding: 10px 10px 10px 10px;
+    height: 8vmin;
+    width: 100%; 
+    position: relative;
+    
+}
+.search input {
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 0px 0px 10px;
+}
+
+.profilebtn button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(13, 174, 227);
+    color: white;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 767px) {
+
+
+    .homeright {
+        margin-right: 10px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 5rem;
+
+    }
+
+    .homemedia {
+        background-color: aquamarine;
+    
+    }
+
+    .search input {
+    height: 30px;
+    width: 500px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 0px 0px 10px;
+    border: 2px solid black;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+    .search input {
+        height: 40px;
+    }
+
+    .homeright {
+        width: 100%;
+        gap: 1rem;
+    }
+}

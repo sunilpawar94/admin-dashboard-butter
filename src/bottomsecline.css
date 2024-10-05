@@ -1,0 +1,34 @@
+.body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.socialline {
+    display: flex;
+    width: 157.vmin;
+    margin-left: 20px;
+    justify-content: space-between;
+    padding: 0px 0px 0px 50px;
+}
+
+@media screen and (max-width: 767px) {
+    .socialline {
+        width: 100%;
+        height: 20vh;
+        font-size: 20px;
+    }
+    .socialline h4 {
+        font-size: 20px;
+
+    }
+    
+}
+
+@media screen and (max-width: 479px) {
+    .socialline {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+}
