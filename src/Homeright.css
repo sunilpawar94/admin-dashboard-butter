@@ -1,8 +1,10 @@
 .body {
     margin: 0px;
     padding: 0px;
-    width: 100%;
     background-color: rgb(204, 238, 247);
+}
+.logo {
+    display: none;
 }
 
 .homeright {
@@ -16,7 +18,6 @@
     padding: 10px 10px 10px 10px;
     height: 8vmin;
     width: 100%; 
-    position: relative;
     
 }
 .search input {
@@ -50,7 +51,8 @@
     }
 
     .homemedia {
-        background-color: aquamarine;
+        background-color: rgb(204, 238, 247);
+
     
     }
 
@@ -68,10 +70,14 @@
 @media screen and (max-width: 479px) {
     .search input {
         height: 40px;
+        background-color:none;
     }
 
     .homeright {
         width: 100%;
         gap: 1rem;
+        margin-left: 0;
     }
+    
+    
 }

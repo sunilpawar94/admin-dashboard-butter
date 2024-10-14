@@ -105,6 +105,8 @@
     .topsecthree {
         display: flex;
         flex-direction: column;
+        margin-top: 20px;
+        margin-left: 0px;
     }
     .sectionone {
         width: 100%;

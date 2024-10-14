@@ -4,6 +4,7 @@ import './Homeright.css';
 function homeright() {
   return (
     <div className="homeright homemedia">
+      
         <div className="search">
         <input placeholder='Analyse any Influencer...'></input>
         </div>

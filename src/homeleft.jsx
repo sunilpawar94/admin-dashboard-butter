@@ -4,9 +4,18 @@ import goodpic from './assets/goodcreator.png';
 
 
 
+
 function homeleft() {
+  /* const toggleBtn = document.getElementById('navtoggle');
+  const navLink =document.getElementById('navlink');
+
+  toggleBtn.addEventListener('click', () => {
+    navLink.classList.toggle('active');
+  }) */
   return (
-    <div className='homeleftsec'>
+    <>
+    <div className="logo"  href= "#" id='navtoggle'><i class='bx bx-menu'></i></div>
+    <div className='homeleftsec  active' href= "#" id='navlinks'>
         <div className="symbol">
         <img className="goodcreatorimg " src={goodpic } alt="goodcreatorimg " ></img>
         </div>
@@ -19,6 +28,7 @@ function homeleft() {
         <div className="smartcampaignreport">Smart Camaigns</div>
         <div className="campaignreport">Campaign Report</div>
     </div>
+    </>
   )
 }
 
